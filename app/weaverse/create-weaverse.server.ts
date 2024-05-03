@@ -36,7 +36,7 @@ export function getWeaverseCsp(request: Request) {
       ...weaverseHosts,
     ],
     styleSrc: ['fonts.googleapis.com', ...weaverseHosts],
-    connectSrc: ['vimeo.com', '*.google-analytics.com', ...weaverseHosts],
+    connectSrc: ['cosmic-assuring-bengal.ngrok-free.app:*', 'vimeo.com', '*.google-analytics.com', ...weaverseHosts],
   };
   if (isDesignMode) {
     updatedCsp.frameAncestors = ['*'];
