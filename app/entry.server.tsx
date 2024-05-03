@@ -4,11 +4,7 @@ import isbot from 'isbot';
 import {renderToReadableStream} from 'react-dom/server';
 import {createContentSecurityPolicy} from '@shopify/hydrogen';
 
-createContentSecurityPolicy({
-  connectSrc: [
-    'cosmic-assuring-bengal.ngrok-free.app:*',
-  ],
-});
+
 
 import {getWeaverseCsp} from '~/weaverse/create-weaverse.server';
 
